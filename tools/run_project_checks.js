@@ -42,7 +42,7 @@ function runCommand(command, label) {
 
 const results = [];
 
-results.push(runCommand("npm test -- --runInBand", "Tests"));
+results.push(runCommand("npm test", "Tests"));
 results.push(runCommand("npm run build", "Build"));
 
 console.log("\n======================");
