@@ -1,38 +1,39 @@
 # SecureAI Web Harness
 
-SecureAI Web Harness is a coding-agent harness for database-driven web applications.
+SecureAI Web Harness ist ein Harness für einen AI Coding Agent zur Entwicklung datenbankgestützter Webanwendungen.
 
-The goal of the project is to support an AI coding agent in implementing, verifying and improving software changes in a controlled and reproducible way.
+Ziel des Projekts ist es, einen AI Coding Agent dabei zu unterstützen, Softwareänderungen kontrolliert, nachvollziehbar und überprüfbar umzusetzen.
 
-## Target Software
+## Zielsoftware
 
-The target software is **StudyTask**, a small web application for students to manage tasks and deadlines.
+Die Zielsoftware ist **StudyTask**.
 
-Planned functions include:
+StudyTask ist eine kleine Webanwendung für Studierende zur Verwaltung von Aufgaben und Deadlines.
 
-- Create tasks
-- Edit tasks
-- Delete tasks
-- Mark tasks as completed
-- Manage deadlines
+Geplante Funktionen:
 
-## Project Focus
+- Aufgaben erstellen
+- Aufgaben bearbeiten
+- Aufgaben löschen
+- Aufgaben als erledigt markieren
+- Deadlines verwalten
 
-The harness will include:
+## Schwerpunkt des Projekts
 
-- Context files
-- Custom tools
-- Automated verification
-- Permission and sandbox rules
-- Evaluation tasks
-- Security mechanisms
+Der Harness enthält unter anderem:
+
+- Kontextdateien
+- eigene Tools
+- automatische Prüfungen
+- Berechtigungs- und Sandbox-Regeln
+- Evaluation
+- Sicherheitsmechanismen
 
 ## Base Agent
 
 OpenCode 1.18.31
 
-## Project Status
+## Projektstatus
 
-Currently in development for the module:
-
-AI in Software Development – WS 2026/27
+Das Projekt wird im Rahmen des Moduls  
+**AI in Software Development – WS 2026/27** entwickelt.

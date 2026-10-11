@@ -1,22 +1,22 @@
-# Agent Instructions
+# Anweisungen für den Coding Agent
 
-You are working on the StudyTask project.
+Du arbeitest am Projekt StudyTask.
 
-## Goal
+## Ziel
 
-Build and maintain a small database-driven web application for students.
+Entwickle und pflege eine kleine datenbankgestützte Webanwendung für Studierende.
 
-## Rules
+## Regeln
 
-- Follow the project specification.
-- Make small and understandable changes.
-- Do not change unrelated files.
-- Run available checks after making changes.
-- If a check fails, analyze the error and fix the problem.
-- Do not access secrets or credentials.
-- Do not expose environment variables.
-- Ask for confirmation before performing potentially destructive actions.
+- Halte dich an die Projektspezifikation.
+- Führe nur kleine und nachvollziehbare Änderungen durch.
+- Ändere keine Dateien, die für die aktuelle Aufgabe nicht relevant sind.
+- Führe nach Änderungen die verfügbaren Prüfungen aus.
+- Wenn eine Prüfung fehlschlägt, analysiere den Fehler und behebe die Ursache.
+- Greife nicht auf geheime Daten oder Zugangsdaten zu.
+- Gib keine Umgebungsvariablen oder Zugangsdaten aus.
+- Frage vor potenziell destruktiven Aktionen nach einer Bestätigung.
 
-## Target Software
+## Zielsoftware
 
-StudyTask is a task and deadline management application for students.
+StudyTask ist eine Anwendung für Studierende zur Verwaltung von Aufgaben und Deadlines.

@@ -1,42 +1,50 @@
-# StudyTask Specification
+# StudyTask – Spezifikation
 
-## Purpose
+## Zweck
 
-StudyTask is a simple web application that helps students manage tasks and deadlines.
+StudyTask ist eine einfache Webanwendung, die Studierenden dabei hilft, Aufgaben und Deadlines zu verwalten.
 
-## Users
+## Zielgruppe
 
-The main users are students.
+Die Hauptzielgruppe sind Studierende.
 
-## Core Features
+## Kernfunktionen
 
-### Create Task
+### Aufgabe erstellen
 
-A user can create a task with:
+Ein Benutzer kann eine Aufgabe mit folgenden Daten erstellen:
 
-- Title
-- Description
+- Titel
+- Beschreibung
 - Deadline
 - Status
 
-### View Tasks
+### Aufgaben anzeigen
 
-The application displays all created tasks.
+Die Anwendung zeigt alle erstellten Aufgaben an.
 
-### Edit Task
+### Aufgabe bearbeiten
 
-A user can update an existing task.
+Ein Benutzer kann eine bestehende Aufgabe ändern.
 
-### Delete Task
+### Aufgabe löschen
 
-A user can delete a task.
+Ein Benutzer kann eine bestehende Aufgabe löschen.
 
-### Complete Task
+### Aufgabe abschließen
 
-A user can mark a task as completed.
+Ein Benutzer kann eine Aufgabe als erledigt markieren.
 
-## Basic Validation
+## Validierungsregeln
 
-- A task title must not be empty.
-- The deadline must use a valid date format.
-- Invalid input should produce a clear error message.
+- Der Titel einer Aufgabe darf nicht leer sein.
+- Die Deadline muss ein gültiges Datumsformat verwenden.
+- Ungültige Eingaben müssen mit einer verständlichen Fehlermeldung beantwortet werden.
+
+## Deadline-Format
+
+Die Deadline soll eindeutig spezifiziert und validiert werden.
+
+Bevorzugtes Format:
+
+YYYY-MM-DD
