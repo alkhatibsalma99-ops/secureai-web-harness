@@ -1,0 +1,19 @@
+Implement task search for the StudyTask API.
+
+Requirements:
+
+1. Add GET /tasks/search?q=<query>.
+2. The endpoint must return all tasks whose title contains the query string.
+3. Matching must be case-insensitive.
+4. Partial matches must be supported.
+5. If no task matches, return an empty array with HTTP 200.
+6. If q is missing or empty, return HTTP 400.
+7. Existing API behavior must remain intact.
+8. Preserve the existing endpoints:
+   - GET /
+   - GET /tasks/count
+   - POST /tasks
+9. Do not introduce new dependencies unless necessary.
+10. Keep the implementation consistent with the existing project structure.
+
+Do not access files outside this repository.

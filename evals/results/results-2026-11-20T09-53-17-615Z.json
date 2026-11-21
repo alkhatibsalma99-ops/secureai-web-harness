@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-11-20T09:53:17.619Z",
+  "taskFilter": "EVAL-08",
+  "runsPerTask": 1,
+  "results": [
+    {
+      "task": "EVAL-08",
+      "name": "Task Tags Management",
+      "size": "large",
+      "run": 1,
+      "passed": false,
+      "tokens": 0,
+      "cost": 0,
+      "runtimeSeconds": 0,
+      "error": "EPERM, Permission denied: \\\\?\\C:\\Users\\alkha\\OneDrive\\Desktop\\secureai-web-harness\\.eval-worktrees\\eval-08-run-1 '\\\\?\\C:\\Users\\alkha\\OneDrive\\Desktop\\secureai-web-harness\\.eval-worktrees\\eval-08-run-1'"
+    }
+  ],
+  "summary": [
+    {
+      "task": "EVAL-08",
+      "runs": 1,
+      "passes": 0,
+      "successRate": 0,
+      "avgTokens": 0,
+      "avgCost": 0,
+      "avgRuntimeSeconds": 0
+    }
+  ]
+}

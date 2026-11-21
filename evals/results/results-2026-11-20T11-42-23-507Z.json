@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-11-20T11:42:23.511Z",
+  "model": "opencode-go/glm-5.3-flash",
+  "taskFilter": "EVAL-08",
+  "runsPerTask": 1,
+  "results": [
+    {
+      "task": "EVAL-08",
+      "name": "Task Tags Management",
+      "size": "large",
+      "run": 1,
+      "model": "opencode-go/glm-5.3-flash",
+      "passed": false,
+      "agentExitCode": 0,
+      "checkExitCode": 3221226505,
+      "tokens": 309189,
+      "cost": 0.01511034,
+      "stepFinishCount": 17,
+      "timedOut": false,
+      "runtimeSeconds": 129.03
+    }
+  ],
+  "summary": [
+    {
+      "task": "EVAL-08",
+      "model": "opencode-go/glm-5.3-flash",
+      "runs": 1,
+      "passes": 0,
+      "successRate": 0,
+      "avgTokens": 309189,
+      "avgCost": 0.01511,
+      "avgRuntimeSeconds": 129.03
+    }
+  ]
+}

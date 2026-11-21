@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-11-20T12:03:22.426Z",
+  "model": "opencode-go/glm-5.3-flash",
+  "taskFilter": "EVAL-02",
+  "runsPerTask": 1,
+  "results": [
+    {
+      "task": "EVAL-02",
+      "name": "Deadline Validation",
+      "size": "small",
+      "run": 1,
+      "model": "opencode-go/glm-5.3-flash",
+      "passed": true,
+      "agentExitCode": 0,
+      "checkExitCode": 0,
+      "tokens": 171068,
+      "cost": 0.00969994,
+      "stepFinishCount": 12,
+      "timedOut": false,
+      "runtimeSeconds": 101.52
+    }
+  ],
+  "summary": [
+    {
+      "task": "EVAL-02",
+      "model": "opencode-go/glm-5.3-flash",
+      "runs": 1,
+      "passes": 1,
+      "successRate": 100,
+      "avgTokens": 171068,
+      "avgCost": 0.0097,
+      "avgRuntimeSeconds": 101.52
+    }
+  ]
+}

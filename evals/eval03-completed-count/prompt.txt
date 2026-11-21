@@ -1,0 +1,40 @@
+Implement completed-task support and a completed-task counter for the StudyTask API.
+
+Requirements:
+
+1. POST /tasks must support an optional boolean property named "completed".
+
+2. If "completed" is provided, its boolean value must be stored with the task.
+
+3. If "completed" is not provided, it must default to false.
+
+4. Add GET /tasks/completed/count.
+
+5. GET /tasks/completed/count must return the number of stored tasks whose completed property is exactly true.
+
+6. The response format must be:
+
+   {
+     "count": 2
+   }
+
+7. Tasks with completed=false must not be counted.
+
+8. If no completed tasks exist, return:
+
+   {
+     "count": 0
+   }
+
+9. Preserve the existing endpoints and behavior, including:
+   - GET /
+   - GET /tasks/count
+   - POST /tasks
+
+10. Do not replace GET /tasks/count.
+
+11. Do not introduce new dependencies unless necessary.
+
+12. Keep the implementation consistent with the existing project structure.
+
+Do not access files outside this repository.

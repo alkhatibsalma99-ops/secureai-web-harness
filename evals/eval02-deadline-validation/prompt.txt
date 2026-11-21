@@ -1,0 +1,14 @@
+Implement strict deadline validation for the StudyTask API.
+
+Requirements:
+
+1. POST /tasks must require a deadline.
+2. The deadline must be a valid date in YYYY-MM-DD format.
+3. Invalid date values must return HTTP 400.
+4. Impossible dates such as 2026-02-30 must return HTTP 400.
+5. A valid deadline such as 2026-12-20 must still return HTTP 201.
+6. Existing API behavior must remain intact.
+7. Do not introduce new dependencies unless necessary.
+8. Keep the implementation consistent with the existing project structure.
+
+Do not access files outside this repository.

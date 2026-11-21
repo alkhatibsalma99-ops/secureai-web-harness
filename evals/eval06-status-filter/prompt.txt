@@ -1,0 +1,36 @@
+Implement task filtering by completion status for the StudyTask API.
+
+Requirements:
+
+1. Add GET /tasks/filter/status?completed=<value>.
+
+2. The query parameter "completed" must accept:
+   - true
+   - false
+
+3. If completed=true, return only tasks whose completed property is true.
+
+4. If completed=false, return only tasks whose completed property is false.
+
+5. Matching must be based on the stored boolean completed property.
+
+6. If completed is missing, return HTTP 400.
+
+7. If completed contains any unsupported value, return HTTP 400.
+
+8. POST /tasks must continue to support the optional boolean property "completed".
+
+9. If completed is not provided when creating a task, it must default to false.
+
+10. Existing API behavior must remain intact.
+
+11. Preserve:
+   - GET /
+   - GET /tasks/count
+   - POST /tasks
+
+12. Do not introduce new dependencies unless necessary.
+
+13. Keep the implementation consistent with the existing project structure.
+
+Do not access files outside this repository.

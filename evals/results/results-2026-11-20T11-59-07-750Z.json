@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-11-20T11:59:07.754Z",
+  "model": "opencode-go/glm-5.3-flash",
+  "taskFilter": "EVAL-01",
+  "runsPerTask": 1,
+  "results": [
+    {
+      "task": "EVAL-01",
+      "name": "Title Validation",
+      "size": "small",
+      "run": 1,
+      "model": "opencode-go/glm-5.3-flash",
+      "passed": true,
+      "agentExitCode": 0,
+      "checkExitCode": 0,
+      "tokens": 157987,
+      "cost": 0.00812147,
+      "stepFinishCount": 10,
+      "timedOut": false,
+      "runtimeSeconds": 72.62
+    }
+  ],
+  "summary": [
+    {
+      "task": "EVAL-01",
+      "model": "opencode-go/glm-5.3-flash",
+      "runs": 1,
+      "passes": 1,
+      "successRate": 100,
+      "avgTokens": 157987,
+      "avgCost": 0.008121,
+      "avgRuntimeSeconds": 72.62
+    }
+  ]
+}

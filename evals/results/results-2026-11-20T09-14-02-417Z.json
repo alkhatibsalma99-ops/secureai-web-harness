@@ -1,0 +1,31 @@
+{
+  "createdAt": "2026-11-20T09:14:02.421Z",
+  "taskFilter": "EVAL-08",
+  "runsPerTask": 1,
+  "results": [
+    {
+      "task": "EVAL-08",
+      "name": "Task Tags Management",
+      "size": "large",
+      "run": 1,
+      "passed": false,
+      "agentExitCode": 0,
+      "checkExitCode": 3221226505,
+      "tokens": 250378,
+      "cost": 0,
+      "stepFinishCount": 8,
+      "runtimeSeconds": 98.25
+    }
+  ],
+  "summary": [
+    {
+      "task": "EVAL-08",
+      "runs": 1,
+      "passes": 0,
+      "successRate": 0,
+      "avgTokens": 250378,
+      "avgCost": 0,
+      "avgRuntimeSeconds": 98.25
+    }
+  ]
+}

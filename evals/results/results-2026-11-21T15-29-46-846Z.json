@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-11-21T15:29:46.850Z",
+  "model": "opencode-go/glm-5.3-flash",
+  "taskFilter": "EVAL-03",
+  "runsPerTask": 1,
+  "results": [
+    {
+      "task": "EVAL-03",
+      "name": "Completed Tasks Count",
+      "size": "small",
+      "run": 1,
+      "model": "opencode-go/glm-5.3-flash",
+      "passed": false,
+      "agentExitCode": 0,
+      "checkExitCode": 1,
+      "tokens": 146619,
+      "cost": 0.007699479999999998,
+      "stepFinishCount": 10,
+      "timedOut": false,
+      "runtimeSeconds": 95.81
+    }
+  ],
+  "summary": [
+    {
+      "task": "EVAL-03",
+      "model": "opencode-go/glm-5.3-flash",
+      "runs": 1,
+      "passes": 0,
+      "successRate": 0,
+      "avgTokens": 146619,
+      "avgCost": 0.007699,
+      "avgRuntimeSeconds": 95.81
+    }
+  ]
+}

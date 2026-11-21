@@ -1,0 +1,79 @@
+{
+  "createdAt": "2026-11-20T08:41:13.566Z",
+  "runsPerTask": 1,
+  "results": [
+    {
+      "task": "EVAL-01",
+      "run": 1,
+      "passed": null,
+      "tokens": 0,
+      "cost": 0,
+      "runtimeSeconds": 0,
+      "dryRun": true
+    },
+    {
+      "task": "EVAL-02",
+      "run": 1,
+      "passed": null,
+      "tokens": 0,
+      "cost": 0,
+      "runtimeSeconds": 0,
+      "dryRun": true
+    },
+    {
+      "task": "EVAL-03",
+      "run": 1,
+      "passed": null,
+      "tokens": 0,
+      "cost": 0,
+      "runtimeSeconds": 0,
+      "dryRun": true
+    },
+    {
+      "task": "EVAL-04",
+      "run": 1,
+      "passed": null,
+      "tokens": 0,
+      "cost": 0,
+      "runtimeSeconds": 0,
+      "dryRun": true
+    },
+    {
+      "task": "EVAL-05",
+      "run": 1,
+      "passed": null,
+      "tokens": 0,
+      "cost": 0,
+      "runtimeSeconds": 0,
+      "dryRun": true
+    },
+    {
+      "task": "EVAL-06",
+      "run": 1,
+      "passed": null,
+      "tokens": 0,
+      "cost": 0,
+      "runtimeSeconds": 0,
+      "dryRun": true
+    },
+    {
+      "task": "EVAL-07",
+      "run": 1,
+      "passed": null,
+      "tokens": 0,
+      "cost": 0,
+      "runtimeSeconds": 0,
+      "dryRun": true
+    },
+    {
+      "task": "EVAL-08",
+      "run": 1,
+      "passed": null,
+      "tokens": 0,
+      "cost": 0,
+      "runtimeSeconds": 0,
+      "dryRun": true
+    }
+  ],
+  "summary": []
+}

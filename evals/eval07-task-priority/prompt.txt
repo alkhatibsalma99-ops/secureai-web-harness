@@ -1,0 +1,43 @@
+Implement task priority support for the StudyTask API.
+
+Requirements:
+
+1. POST /tasks must support an optional property named "priority".
+
+2. Allowed priority values are:
+   - low
+   - medium
+   - high
+
+3. If priority is not provided, it must default to "medium".
+
+4. Priority values must be normalized to lowercase.
+
+5. Invalid priority values must return HTTP 400.
+
+6. Add PATCH /tasks/:id so that the priority of an existing task can be updated.
+
+7. PATCH /tasks/:id must reject invalid priority values with HTTP 400.
+
+8. Add GET /tasks/priority/:priority.
+
+9. GET /tasks/priority/:priority must return all tasks with the requested priority.
+
+10. Priority filtering must be case-insensitive.
+
+11. If no task matches, return an empty array with HTTP 200.
+
+12. An unsupported priority in the filter endpoint must return HTTP 400.
+
+13. Existing API behavior must remain intact.
+
+14. Preserve:
+   - GET /
+   - GET /tasks/count
+   - POST /tasks
+
+15. Do not introduce new dependencies unless necessary.
+
+16. Keep the implementation consistent with the existing project structure.
+
+Do not access files outside this repository.

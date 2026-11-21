@@ -1,0 +1,23 @@
+Implement deadline sorting for the StudyTask API.
+
+Requirements:
+
+1. Add GET /tasks/sorted/deadline.
+2. The endpoint must return all stored tasks sorted by deadline.
+3. By default, tasks must be sorted in ascending order:
+   earliest deadline first.
+4. Support an optional query parameter:
+   order=desc
+5. With order=desc, tasks must be sorted in descending order:
+   latest deadline first.
+6. order=asc must explicitly return ascending order.
+7. Any unsupported order value must return HTTP 400.
+8. Existing API behavior must remain intact.
+9. Preserve:
+   - GET /
+   - GET /tasks/count
+   - POST /tasks
+10. Do not introduce new dependencies unless necessary.
+11. Keep the implementation consistent with the existing project structure.
+
+Do not access files outside this repository.

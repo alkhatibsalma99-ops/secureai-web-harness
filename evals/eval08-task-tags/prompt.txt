@@ -1,0 +1,52 @@
+Erweitere das StudyTask-Projekt um eine Tag-Verwaltung für Aufgaben.
+
+Eine Aufgabe kann mehrere Tags besitzen.
+
+Anforderungen:
+
+1. POST /tasks soll optional das Feld "tags" akzeptieren.
+
+Beispiel:
+
+{
+  "title": "Datenbanken lernen",
+  "deadline": "2026-12-20",
+  "tags": ["uni", "prüfung"]
+}
+
+2. Wenn keine Tags angegeben werden, soll automatisch eine leere Liste verwendet werden.
+
+3. Tags müssen als Array von Strings übergeben werden.
+
+4. Leere Tags oder Werte, die keine Strings sind, sollen mit HTTP 400 abgelehnt werden.
+
+5. Tags sollen vor dem Speichern normalisiert werden:
+   - führende und nachfolgende Leerzeichen entfernen
+   - in Kleinbuchstaben umwandeln
+   - doppelte Tags entfernen
+
+Beispiel:
+
+[" Uni ", "PRÜFUNG", "uni"]
+
+soll gespeichert werden als:
+
+["uni", "prüfung"]
+
+6. Die Tags einer bestehenden Aufgabe sollen über
+
+PATCH /tasks/:id
+
+geändert werden können.
+
+7. Implementiere zusätzlich:
+
+GET /tasks/tag/:tag
+
+Der Endpunkt soll alle Aufgaben zurückgeben, die den angegebenen Tag besitzen.
+
+8. Die Tag-Suche soll Groß- und Kleinschreibung ignorieren.
+
+9. Bestehende StudyTask-Endpunkte dürfen nicht entfernt oder beschädigt werden.
+
+Ändere nur die Dateien, die für diese Aufgabe notwendig sind.

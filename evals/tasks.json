@@ -1,0 +1,106 @@
+[
+    {
+      "id": "EVAL-01",
+      "name": "Title Validation",
+      "size": "small",
+      "promptFile": "eval01-title-validation/prompt.txt",
+      "expectedFile": "eval01-title-validation/expected.md",
+      "checkFile": "eval01-title-validation/check.js",
+      "startState": "eval-01-start",
+      "budget": {
+        "maxSteps": 20,
+        "maxMinutes": 5
+      }
+    },
+    {
+      "id": "EVAL-02",
+      "name": "Deadline Validation",
+      "size": "small",
+      "promptFile": "eval02-deadline-validation/prompt.txt",
+      "expectedFile": "eval02-deadline-validation/expected.md",
+      "checkFile": "eval02-deadline-validation/check.js",
+      "startState": "eval-02-start",
+      "budget": {
+        "maxSteps": 20,
+        "maxMinutes": 5
+      }
+    },
+    {
+      "id": "EVAL-03",
+      "name": "Completed Tasks Count",
+      "size": "small",
+      "promptFile": "eval03-completed-count/prompt.txt",
+      "expectedFile": "eval03-completed-count/expected.md",
+      "checkFile": "eval03-completed-count/check.js",
+      "startState": "eval-03-start",
+      "budget": {
+        "maxSteps": 20,
+        "maxMinutes": 5
+      }
+    },
+    {
+      "id": "EVAL-04",
+      "name": "Task Search",
+      "size": "medium",
+      "promptFile": "eval04-task-search/prompt.txt",
+      "expectedFile": "eval04-task-search/expected.md",
+      "checkFile": "eval04-task-search/check.js",
+      "startState": "eval-04-start",
+      "budget": {
+        "maxSteps": 30,
+        "maxMinutes": 8
+      }
+    },
+    {
+      "id": "EVAL-05",
+      "name": "Deadline Sorting",
+      "size": "medium",
+      "promptFile": "eval05-deadline-sorting/prompt.txt",
+      "expectedFile": "eval05-deadline-sorting/expected.md",
+      "checkFile": "eval05-deadline-sorting/check.js",
+      "startState": "eval-05-start",
+      "budget": {
+        "maxSteps": 30,
+        "maxMinutes": 8
+      }
+    },
+    {
+      "id": "EVAL-06",
+      "name": "Status Filter",
+      "size": "medium",
+      "promptFile": "eval06-status-filter/prompt.txt",
+      "expectedFile": "eval06-status-filter/expected.md",
+      "checkFile": "eval06-status-filter/check.js",
+      "startState": "eval-06-start",
+      "budget": {
+        "maxSteps": 30,
+        "maxMinutes": 8
+      }
+    },
+    {
+      "id": "EVAL-07",
+      "name": "Task Priority Management",
+      "size": "large",
+      "promptFile": "eval07-task-priority/prompt.txt",
+      "expectedFile": "eval07-task-priority/expected.md",
+      "checkFile": "eval07-task-priority/check.js",
+      "startState": "eval-07-start",
+      "budget": {
+        "maxSteps": 50,
+        "maxMinutes": 15
+      }
+    },
+    {
+      "id": "EVAL-08",
+      "name": "Task Tags Management",
+      "size": "large",
+      "promptFile": "eval08-task-tags/prompt.txt",
+      "expectedFile": "eval08-task-tags/expected.md",
+      "checkFile": "eval08-task-tags/check.js",
+      "startState": "eval-08-start",
+      "budget": {
+        "maxSteps": 50,
+        "maxMinutes": 15
+      }
+    }
+  ]

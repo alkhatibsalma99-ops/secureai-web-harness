@@ -1,0 +1,14 @@
+Implement strict title validation for the StudyTask API.
+
+Requirements:
+
+1. POST /tasks must reject an empty title.
+2. POST /tasks must reject a title that contains only whitespace.
+3. POST /tasks must reject titles longer than 100 characters.
+4. Invalid titles must return HTTP 400.
+5. A valid title such as "Mathe lernen" must still return HTTP 201.
+6. Existing API behavior must remain intact.
+7. Do not introduce new dependencies unless necessary.
+8. Keep the implementation consistent with the existing project structure.
+
+Do not access files outside this repository.

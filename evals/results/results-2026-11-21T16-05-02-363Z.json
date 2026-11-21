@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-11-21T16:05:02.367Z",
+  "model": "opencode-go/glm-5.3-flash",
+  "taskFilter": "EVAL-05",
+  "runsPerTask": 1,
+  "results": [
+    {
+      "task": "EVAL-05",
+      "name": "Deadline Sorting",
+      "size": "medium",
+      "run": 1,
+      "model": "opencode-go/glm-5.3-flash",
+      "passed": true,
+      "agentExitCode": 0,
+      "checkExitCode": 0,
+      "tokens": 364429,
+      "cost": 0.01650749,
+      "stepFinishCount": 20,
+      "timedOut": false,
+      "runtimeSeconds": 277.57
+    }
+  ],
+  "summary": [
+    {
+      "task": "EVAL-05",
+      "model": "opencode-go/glm-5.3-flash",
+      "runs": 1,
+      "passes": 1,
+      "successRate": 100,
+      "avgTokens": 364429,
+      "avgCost": 0.016507,
+      "avgRuntimeSeconds": 277.57
+    }
+  ]
+}
